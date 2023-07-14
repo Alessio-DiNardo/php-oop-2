@@ -6,13 +6,10 @@ class Toy extends Product{
     public $material;
 
 
-    public function __construct(String $material,) {
-        parent::__construct(String $name, String $brand, Int $price, String $image, String $category);
-        $this->setMaterial = $material;
-        $this->setName = $brand;
-        $this->setPrice = $price;
-        $this->setImage = $image;
-        $this->setCategory = $category;
+    public function __construct(String $name, String $brand, Int $price, String $image, String $category, String $material) {
+        parent::__construct($name,$brand,$price,$image,$category);
+        $this->setMaterial($material);
+
     }
 
     public function setMaterial($material){
