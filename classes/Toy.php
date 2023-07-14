@@ -2,8 +2,7 @@
 
 include_once __DIR__ . '/Product.php';
 
-class Toy extends Product {}
-class Toy {
+class Toy extends Product{
     public $material;
 
 
