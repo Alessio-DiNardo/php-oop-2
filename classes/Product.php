@@ -1,5 +1,8 @@
 <?php 
 
+include_once __DIR__ . '/Toy.php';
+include_once __DIR__ . '/Food.php';
+
 class product{
     protected $name;
     protected $brand;
