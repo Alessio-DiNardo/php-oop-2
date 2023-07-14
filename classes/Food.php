@@ -1,4 +1,6 @@
+
 <?php 
+include_once __DIR__ . '/Product.php';
 class Food {
     public $type;
     public $ingredient;

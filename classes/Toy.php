@@ -1,6 +1,8 @@
 <?php 
 
 include_once __DIR__ . '/Product.php';
+
+class Toy extends Product {}
 class Toy {
     public $material;
 
