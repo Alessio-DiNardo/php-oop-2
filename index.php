@@ -15,6 +15,15 @@ Stampiamo delle card contenenti i dettagli dei prodotti, come immagine, titolo, 
     
 </head>
 <body>
-    
+    <h1 class="fw-bold text-center text-uppercase">
+        Tom & Jerry
+    </h1>
+
+    <h2>CAT</h2>
+    <?php 
+    $imgLink= 'https://www.zoomalia.it/negozio-di-animali/friskies-crocchette-per-gatti-adulti-p-39988.html';
+
+    $croccantini= new Food('Croccantini', 'Friskies', 40, $imgLink, 'cat', 'fish',20/05/2024)
+    ?>
 </body>
 </html>
